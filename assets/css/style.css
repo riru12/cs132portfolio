@@ -18,17 +18,26 @@
 
 body {
     font-family: 'Gotham', sans-serif;
+    margin: 0px;
 }
 
 .background {
     background: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .container {
     display: flex;
+    flex-direction:column;
+    margin-left: 25vw;
+    margin-right: 25vw;
+}
+
+.container-center {
     justify-content: center;
     align-items: center;
-    padding: 25px;
 }
 
 .bold-text {
@@ -41,6 +50,14 @@ body {
 
 .normal-text {
     font-weight: 500;
+}
+
+.button {
+    border: 2px solid #8c1111;
+    background: white;
+    padding:10px;
+    margin:0px;
+    cursor:pointer;
 }
 
 .topnav {
