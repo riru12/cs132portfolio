@@ -42,3 +42,47 @@ body {
 .normal-text {
     font-weight: 500;
 }
+
+.topnav {
+    width: 100%;
+ 
+    position: fixed;
+    top: 0;
+    left: 0;
+ 
+    background-color: White;
+
+    font-size: 15px;
+    box-shadow: 0 0 10px Black;
+}
+
+.nav-link {
+    display: inline-block;
+    width: 100px;
+    height: 55px;
+ 
+    color: Black;
+ 
+    /* centering text */
+    text-align: center;    /* horizontally */
+    line-height: 55px;     /* vertically */
+    
+    text-decoration: none;
+    font-weight: 300;
+ }
+
+.nav-logo {
+    display: inline-block;
+    width: 100px;
+    height: 55px;
+ 
+    color: Black;
+ 
+    /* centering text */
+    text-align: center;    /* horizontally */
+    line-height: 55px;     /* vertically */
+    
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 30;
+}
