@@ -94,7 +94,12 @@ body {
     cursor:pointer;
 }
 
-.subitem {
+.subitem-div {
+    display:flex; 
+    gap:14px;
+}
+
+.subitem-rectangle {
     min-width:6px; 
     background-color: darkgrey;
 }
