@@ -1,5 +1,11 @@
 @font-face {
     font-family: 'Gotham';
+    src: url('../fonts/gotham/GothamLight.ttf') format('truetype');
+    font-weight: 300;
+}
+
+@font-face {
+    font-family: 'Gotham';
     src: url('../fonts/gotham/GothamMedium.ttf') format('truetype');
     font-weight: 500;
 }
@@ -11,9 +17,15 @@
 }
 
 @font-face {
-    font-family: 'Gotham';
-    src: url('../fonts/gotham/GothamLight.ttf') format('truetype');
-    font-weight: 300;
+    font-family: 'Liberation Mono';
+    src: url('../fonts/liberationMono/LiberationMono-Regular.ttf') format('truetype');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Liberation Mono';
+    src: url('../fonts/liberationMono/LiberationMono-Bold.ttf') format('truetype');
+    font-weight: 700;
 }
 
 body {
@@ -38,11 +50,7 @@ body {
 .container-split {
     display: flex; 
     flex-direction: row;
-    gap:10px;
-}
-
-.bold-text {
-    font-weight: 700;
+    gap:40px;
 }
 
 .light-text {
@@ -51,6 +59,20 @@ body {
 
 .normal-text {
     font-weight: 500;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.normal-liberation-text {
+    font-family: 'Liberation Mono', monospace;
+    font-weight: 500;
+}
+
+.bold-liberation-text {
+    font-family: 'Liberation Mono', monospace;
+    font-weight: 700;
 }
 
 .paragraph {
@@ -63,12 +85,18 @@ body {
     justify-content:center; 
     align-items:center;
 }
+
 .dataset-button {
     border: 2px solid #8c1111;
     background: white;
     padding:10px;
     margin:0px;
     cursor:pointer;
+}
+
+.subitem {
+    min-width:6px; 
+    background-color: darkgrey;
 }
 
 .topnav {
