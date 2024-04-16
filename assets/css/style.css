@@ -43,6 +43,9 @@ body {
 .container {
     display: flex;
     flex-direction:column;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
     margin-left: 25vw;
     margin-right: 25vw;
 }
@@ -87,6 +90,9 @@ body {
 }
 
 .dataset-button {
+    display:flex;
+    align-items:center;
+    gap: 5px;
     border: 2px solid #8c1111;
     background: white;
     padding:10px;
