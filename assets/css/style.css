@@ -56,6 +56,18 @@ body {
     gap:40px;
 }
 
+.subcontainer-25 {
+    width: 25vw;
+}
+
+.subcontainer-30 {
+    width: 30vw;
+}
+
+.subcontainer-20 {
+    width: 20vw;
+}
+
 .light-text {
     font-weight: 300;
 }
@@ -114,6 +126,19 @@ body {
     background-color: darkgrey;
 }
 
+.header-text {
+    font-size: 80px;
+    margin: 0px 0px 7vh 0px;
+}
+
+.img-banner-div {
+    background-color:black; 
+    width:100%; 
+    height:200px; 
+    margin-top:10vh; 
+    overflow:hidden;
+}
+
 .topnav {
     width: 100%;
  
@@ -156,4 +181,43 @@ body {
     text-decoration: none;
     font-weight: 700;
     font-size: 30;
+}
+
+@media only screen and (max-width: 1280px){
+    .container {
+        margin-left: 10vw;
+        margin-right: 10vw;
+        margin-bottom:5vh;
+    }
+
+    .container-split {
+        display: flex; 
+        flex-direction: column;
+        gap:40px;
+    }
+ 
+    .subcontainer-25 {
+        width: auto;
+    }
+    
+    .subcontainer-30 {
+        width: auto;
+    }
+    
+    .subcontainer-20 {
+        width: auto;
+    }
+
+    .img-banner-div {
+        background-color:black; 
+        width:100%; 
+        height:200px; 
+        margin-top: 5vh; 
+        overflow:hidden;
+    }
+
+    .header-text {
+        font-size: 65px;
+        margin: 0px 0px 4vh 0px;
+    }
 }
