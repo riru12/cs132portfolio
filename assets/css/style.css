@@ -119,10 +119,20 @@ body {
     align-items:center;
     gap: 5px;
     border: 2px solid #EA1D2C;
+    color:black;
     background: white;
     padding:10px;
     margin:0px;
     cursor:pointer;
+}
+
+.dataset-button:hover{
+    background: #EA1D2C;
+    color:white;
+}
+
+.dataset-button:hover .dataset-svg{
+    filter: invert(100%);
 }
 
 .subitem-div {
