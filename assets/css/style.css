@@ -463,6 +463,10 @@ body {
         margin: 0px 0px 4vh 0px;
     }
 
+    .carousel-container {
+        margin-bottom:1vh; 
+    }
+
     .carousel-subheader-text {
         font-size: 20px;
     }
