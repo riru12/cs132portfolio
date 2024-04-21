@@ -505,6 +505,11 @@ body {
         width: auto;
     }
 
+    .subitem-vertical-section {
+        margin-bottom:16px;
+        margin-left:0px;
+    }
+
     .hero-container {
         padding-top:5vh;
         margin-top: 10vh;
