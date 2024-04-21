@@ -68,7 +68,7 @@ body {
     width: 20vw;
 }
 
-.hypothesis-section {
+.subitem-vertical-section {
     margin-top:16px;
     margin-bottom:0px;
     margin-left:30px;
@@ -436,7 +436,7 @@ body {
         width: auto;
     }
 
-    .hypothesis-section {
+    .subitem-vertical-section {
         margin-bottom:16px;
         margin-left:0px;
     }
