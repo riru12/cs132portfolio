@@ -146,5 +146,40 @@
         </div>
     </section>
     <script src="assets/js/script.js"></script>
+    <section id="methodology" class="container">
+        <p class="light-text">Data Preprocessing</p>
+        <div style="display:flex; flex-direction: column; gap: 30px;">
+            <div class="subitem-div">
+                <div class="subitem-rectangle"></div>
+                <div>
+                    <div class="bold-liberation-text" style="margin-bottom:10px;">Handling Missing/Null Values</div>
+                    <div class="light-text height-140">
+                        The dataset was checked for null/missing values in each column using pandas. The dataset contains a total of 165029 entries and 88 features 
+                        and it does not contain missing or null values as the dimensions remained the samed after processing it in pandas.
+                    </div>
+                </div>
+            </div>
+            <div class="subitem-div">
+                <div class="subitem-rectangle"></div>
+                <div>
+                    <div class="bold-liberation-text" style="margin-bottom:10px;">Sampling the Data</div>
+                    <div class="light-text height-140">
+                        Due to the huge volume of data, the processing is time and resource heavy. We sampled the data using pandas to 10% of the original volume which 
+                        can be seen in the data section. The sample dataset produced from pandas contains 16503 entries.
+                    </div>
+                </div>
+            </div>
+            <div class="subitem-div">
+                <div class="subitem-rectangle"></div>
+                <div>
+                    <div class="bold-liberation-text" style="margin-bottom:10px;">Dropping Certain Features</div>
+                    <div class="light-text height-140">
+                        We dropped certain features(columns) that are redundant and not related to the study such as some of elements in the breakdowns of the total 
+                        income and a few nominal features.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
