@@ -172,6 +172,10 @@ body {
     margin: 0px 0px 0px 0px;
 }
 
+.body-text {
+    font-size: 16px;
+}
+
 .normal-liberation-text {
     font-family: 'Liberation Mono', monospace;
     font-weight: 500;
