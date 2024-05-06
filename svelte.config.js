@@ -5,7 +5,6 @@ const config = {
   kit: {
     adapter: adapter(),
     paths: {
-      base: process.env.NODE_ENV === 'production' ? '/cs132portfolio.github.io' : '',
     }
   },
   preprocess: vitePreprocess()
