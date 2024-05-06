@@ -5,29 +5,41 @@
 		<link rel="icon" href="./favicon.png" />
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		
-		<link rel="modulepreload" href="./_app/immutable/entry/start.D7ZNuz1-.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/entry.DLRmYOui.js">
+		<link href="./_app/immutable/assets/0.Cezz4-7b.css" rel="stylesheet">
+		<link href="./_app/immutable/assets/2.B8UXok0V.css" rel="stylesheet">
+		<link rel="modulepreload" href="./_app/immutable/entry/start.PqqRIrDM.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/entry.DupAOpMw.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/scheduler.Bmg8oFKD.js">
-		<link rel="modulepreload" href="./_app/immutable/chunks/paths.DixEQodE.js">
-		<link rel="modulepreload" href="./_app/immutable/entry/app.CSnVjyMy.js">
+		<link rel="modulepreload" href="./_app/immutable/chunks/paths.B_SyFf4M.js">
+		<link rel="modulepreload" href="./_app/immutable/entry/app.BixLEi9C.js">
 		<link rel="modulepreload" href="./_app/immutable/chunks/index.m1pniJaI.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/0.C9zzgucq.js">
+		<link rel="modulepreload" href="./_app/immutable/nodes/2.BB-rjraE.js">
 	</head>
 	<body data-sveltekit-preload-data="hover">
-		<div style="display: contents">
+		<div style="display: contents">   <div class="flex fixed bottom-4 md:bottom-auto md:top-4 left-2/4 translate-x-[-50%] px-4 w-screen md:w-auto" data-svelte-h="svelte-8yr0o5"><nav class="flex rounded-2xl bg-[#3c3c3c66] text-neutral-400 backdrop-blur-lg border-[1px] border-neutral-700 w-screen md:w-min p-2"><a href="./" class="p-4 hover:bg-[#0a0a0a66] rounded-xl grow text-center">Home</a> <a href="./" class="p-4 hover:bg-[#0a0a0a66] rounded-xl grow text-center">Background</a> <a href="./" class="p-4 hover:bg-[#0a0a0a66] rounded-xl grow text-center">Data</a> <a href="./" class="p-4 hover:bg-[#0a0a0a66] rounded-xl grow text-center">Methodology</a> <a href="./" class="p-4 hover:bg-[#0a0a0a66] rounded-xl grow text-center">Results</a></nav></div> <section id="hero" data-svelte-h="svelte-1gg1rb3"><div class="w-screen h-screen bg-black"><div class="text-white text-8xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div></div></section> <section id="hero" data-svelte-h="svelte-1gg1rb3"><div class="w-screen h-screen bg-black"><div class="text-white text-8xl">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div></div></section> 
+			
 			<script>
 				{
-					__sveltekit_1pz6wmx = {
+					__sveltekit_n15uan = {
 						base: new URL(".", location).pathname.slice(0, -1),
 						assets: "/cs132portfolio.github.io"
 					};
 
 					const element = document.currentScript.parentElement;
 
+					const data = [null,null];
+
 					Promise.all([
-						import("./_app/immutable/entry/start.D7ZNuz1-.js"),
-						import("./_app/immutable/entry/app.CSnVjyMy.js")
+						import("./_app/immutable/entry/start.PqqRIrDM.js"),
+						import("./_app/immutable/entry/app.BixLEi9C.js")
 					]).then(([kit, app]) => {
-						kit.start(app, element);
+						kit.start(app, element, {
+							node_ids: [0, 2],
+							data,
+							form: null,
+							error: null
+						});
 					});
 				}
 			</script>
