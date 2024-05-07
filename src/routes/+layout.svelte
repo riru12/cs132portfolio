@@ -3,9 +3,13 @@
   import Navbar from "../components/Navbar.svelte";
   import Hero from "../components/Hero.svelte";
   import Overview from "../components/Overview.svelte";
+    import Overviewcopy from "../components/Overview copy.svelte";
 </script>
 
 <slot />
-<Navbar/>
-<Hero />
-<Overview />
+<div class="snap-y snap-normal overflow-y-scroll h-screen flex-grow z-0">
+  <Navbar/>
+  <Hero />
+  <Overview />
+  <Overviewcopy />
+</div>

@@ -3,7 +3,7 @@
     import "$lib/css/gray.css"
 </script>
 
-<section id="hero">
+<section id="hero" class="snap-always snap-start">
         <div class="relative w-screen h-screen bg-black overflow-hidden">
             <div class="absolute h-32 w-full top-0 bg-gradient-to-b from-black to-transparent z-40 pointer-events-none"></div>
             <div class="absolute z-40 left-1/2 translate-x-[-50%] top-1/2 translate-y-[-50%]">

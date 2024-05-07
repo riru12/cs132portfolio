@@ -1,4 +1,4 @@
-<section class="mx-12 md:mx-64 py-24">
+<section id="Overview" class="mx-12 md:mx-64 py-24 min-h-svh justify-center flex flex-col snap-always snap-start">
     <div class="text-white font-bold text-4xl">
         Overview
     </div>
