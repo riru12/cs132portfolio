@@ -1,12 +1,15 @@
 <script>
     import "$lib/css/bento.css"
-    import hero from "$lib/images/hero.jpg"
+
     import bento1 from "$lib/images/bento1.jpg";
     import bento2 from "$lib/images/bento2.jpg";
+    import bento3 from "$lib/images/bento3.jpg";
+
     import DownwardTrend from "./icons/bento/DownwardTrend.svelte";
+    import DownArrow from "./icons/bento/DownArrow.svelte";
 </script>
 
-<section id="bento" class="flex justify-center items-center text-white mx-12 md:mx-32 lg:mx-64 py-16 min-h-auto md:min-h-screen sm:snap-always sm:snap-start">
+<section id="bento" class="flex justify-center items-center text-white py-16 min-h-auto md:min-h-screen sm:snap-always sm:snap-start">
     <div class="bento text-black">
         <div id="box-1" class="group flex flex-col justify-center items-center special">
             <div class="group-hover:hidden"><h2 class="text-5xl ">22.4%</h2><p class="font-semibold text-2xl">of the Philippines' population are living under the poverty line.</p></div>
@@ -32,25 +35,31 @@
         </div>
 
         <div id="box-6" class="">
-            <img src={bento1} alt="" class="min-h-full md:min-w-full object-cover rounded-[1.5rem] gray">
+            <img src={bento2} alt="" class="min-h-full md:min-w-full object-cover rounded-[1.5rem] gray">
         </div>
 
         <div id="box-7" class="relative">
             <h2 class="absolute z-10 left-1/2 translate-x-[-50%] top-1/2 translate-y-[-50%] whitespace-nowrap text-4xl text-center"><span class="gradient-text text-7xl">Poverty</span> <br> continues to <br> affect our country</h2>
-            <img src={hero} alt="" class="min-h-full md:min-w-full object-cover rounded-[1.5rem] darker-gray">
+            <img src={bento1} alt="" class="min-h-full md:min-w-full object-cover rounded-[1.5rem] darker-gray">
         </div>
 
         <div id="box-8" class="group flex justify-center items-center special">
             <div class="group-hover:hidden"><h2 class="text-center text-5xl">Solution</h2></div>
-            <div class="hidden group-hover:block"><p class="font-semibold text-lg text-center">Utilization of <span class="gradient-text">data science</span> in identifying the factors that negatively affect the finances of Filipino households in hopes of inspiring government or community-driven actions</p></div>
+            <div class="hidden group-hover:block"><p class="font-semibold text-lg text-center">Utilizing <span class="gradient-text">data science</span> to <span class="underline decoration-2">identify the factors that negatively affect the finances of Filipino households</span> in hopes of inspiring government or community-driven actions</p></div>
         </div>
 
-        <div id="box-9"  class="">09</div>
+        <div id="box-9"  class="">
+            <p class="font-semibold text-md">We want to do what we can to reduce the number of families living in unsustainable conditions</p>
+        </div>
 
         <div id="box-10" class="">
-            <img src={bento2} alt="" class="min-h-full md:min-w-full object-cover rounded-[1.5rem] gray">
+            <img src={bento3} alt="" class="min-h-full md:min-w-full object-cover rounded-[1.5rem] gray">
         </div>
 
-        <div id="box-11" class="">11</div>
+        <div id="box-11" class="flex flex-col justify-between">
+            <p class="font-semibold text-md">Keep scrolling to see what we've discovered</p><DownArrow/>
+        </div>
+
+        <div id="box-12" class="">12</div>
     </div>
 </section>

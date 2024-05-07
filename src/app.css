@@ -2,10 +2,10 @@
 @tailwind components;
 @tailwind utilities;
 
-.greentext{
+.green-text{
     color: #7ce68a;
 }
 
-.graytext{
+.gray-text{
     color: #a2a2a2
 }

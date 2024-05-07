@@ -6,7 +6,8 @@
     grid-template-areas:
         "box-1 box-1 box-2 box-6 box-4 box-4"
         "box-5 box-3 box-7 box-7 box-8 box-8"
-        "box-5 box-9 box-7 box-7 box-10 box-11";
+        "box-5 box-9 box-7 box-7 box-10 box-11"
+        ;
 }
 
 .bento > div {
@@ -51,7 +52,7 @@
 .bento div:nth-child(9) { grid-area: box-9; }
 .bento div:nth-child(10) { grid-area: box-10; padding:0; }
 .bento div:nth-child(11) { grid-area: box-11; }
-
+.bento div:nth-child(12) { grid-area: box-12; display:none; } /* filler box */
 /* text css */
 h2 {
     font-size:1.5rem;
