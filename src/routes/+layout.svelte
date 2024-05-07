@@ -10,5 +10,4 @@
   <Navbar/>
   <Hero />
   <Overview />
-  <Overview />
 </div>
