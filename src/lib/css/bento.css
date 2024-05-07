@@ -52,6 +52,7 @@
 .bento div:nth-child(9) { grid-area: box-9; }
 .bento div:nth-child(10) { grid-area: box-10; padding:0; }      /*bento3 img */
 .bento div:nth-child(11) { grid-area: box-11; }
+
 /* text css */
 h2 {
     font-size:1.5rem;
