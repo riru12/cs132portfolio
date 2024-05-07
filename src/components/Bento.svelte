@@ -17,11 +17,11 @@
         </div>
 
         <div id="box-2" class="">
-            <p class="font-semibold text-md">According to PSA, over <span class="gradient-text">9.79 million</span> of Filipinos are unable to meet their basic food needs <a href="https://www.pna.gov.ph/articles/1215836" target="_blank" class="font-mono text-[#e9ed74]">[1]</a></p>
+            <p class="font-semibold text-md">According to PSA, over <span class="gradient-text">9.79 million</span> of Filipinos are unable to meet their basic food needs <a href="https://www.pna.gov.ph/articles/1215836" class="font-mono">[1]</a></p>
         </div>
 
         <div id="box-3" class="">
-            <p class="font-semibold text-md">NEDA estimates that around <span class="gradient-text">7.2 million</span> are unable to escape poverty due to inflation rates <a href="https://mb.com.ph/2023/12/22/high-inflation-traps-over-7-m-filipinos-in-poverty-1" target="_blank" class="font-mono text-[#e9ed74]">[2]</a></p>
+            <p class="font-semibold text-md">NEDA estimates that around <span class="gradient-text">7.2 million</span> are unable to escape poverty due to inflation rates <a href="https://mb.com.ph/2023/12/22/high-inflation-traps-over-7-m-filipinos-in-poverty-1" class="font-mono">[2]</a></p>
         </div>
 
         <div id="box-4" class="group flex justify-center items-center special">
@@ -31,7 +31,7 @@
 
         <div id="box-5" class="flex flex-col justify-center gap-2">
             <DownwardTrend />
-            <p class="font-semibold text-lg">The recent</p><h2 class="text-[1.9rem] gradient-text">COVID-19</h2><p class="font-semibold text-lg">pandemic further exacerbated the issue, pushing many more into poverty. <a href="https://www.reuters.com/world/asia-pacific/pandemic-pushed-millions-more-into-poverty-philippines-govt-2022-08-15/" target="_blank" class="font-mono text-[#e9ed74]">[3]</a></p>
+            <p class="font-semibold text-lg">The recent</p><h2 class="text-[1.9rem] gradient-text">COVID-19</h2><p class="font-semibold text-lg">pandemic further exacerbated the issue, pushing many more into poverty. <a href="https://www.reuters.com/world/asia-pacific/pandemic-pushed-millions-more-into-poverty-philippines-govt-2022-08-15/" class="font-mono">[3]</a></p>
         </div>
 
         <div id="box-6" class="">
@@ -60,5 +60,4 @@
             <p class="font-semibold text-md">Keep scrolling to see what we've discovered</p><a href="#background"><DownArrow/></a>
         </div>
     </div>
-    <div class="text-xs font-mono text-neutral-700 mt-5">Image Attribution: <a href="https://www.flickr.com/photos/unicefasiapac/8202544458/in/photostream/" target="_blank" class="underline">UNICEF</a>, <a href="https://asianews.network/philippines-pandemic-of-poverty/" target="_blank" class="underline">ANN</a>, <a href="https://www.barangayanihan.com/" target="_blank" class="underline">Barangayanihan</a></div>
 </section>
