@@ -9,7 +9,7 @@
     import DownArrow from "./icons/bento/DownArrow.svelte";
 </script>
 
-<section id="bento" class="flex justify-center items-center text-white pt-1 md:pt-24 xl:pt-16 pb-16 min-h-auto md:min-h-screen sm:snap-always sm:snap-start">
+<section id="bento" class="flex flex-col justify-center items-center text-white pt-1 md:pt-24 xl:pt-16 pb-16 min-h-auto md:min-h-screen sm:snap-always sm:snap-start">
     <div class="bento text-black">
         <div id="box-1" class="group flex flex-col justify-center items-center special">
             <div class="group-hover:hidden"><h2 class="text-5xl ">22.4%</h2><p class="font-semibold text-2xl">of the Philippines' population are living under the poverty line.</p></div>
@@ -60,4 +60,5 @@
             <p class="font-semibold text-md">Keep scrolling to see what we've discovered</p><a href="#background"><DownArrow/></a>
         </div>
     </div>
+    <div class="text-xs font-mono text-neutral-700 mt-5">Image Attribution: <a href="https://www.flickr.com/photos/unicefasiapac/8202544458/in/photostream/" target="_blank" class="underline">UNICEF</a>, <a href="https://asianews.network/philippines-pandemic-of-poverty/" target="_blank" class="underline">ANN</a>, <a href="https://www.barangayanihan.com/" target="_blank" class="underline">Barangayanihan</a></div>
 </section>
