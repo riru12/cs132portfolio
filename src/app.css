@@ -2,8 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-.sdgred{
-    color: #ff1035;
+.greentext{
+    color: #7ce68a;
 }
 
 .graytext{

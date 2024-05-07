@@ -1,9 +1,11 @@
-<section id="overview" class="mx-12 md:mx-32 lg:mx-64 py-64 h-screen justify-center flex flex-col sm:snap-always sm:snap-start">
-    <div class="text-white text-7xl lg:text-8xl xl:text-9xl font-bold">
-        01
-    </div>
-    <div class="sdgred text-5xl lg:text-6xl xl:text-7xl font-bold mb-10">
-        Overview
+<section id="overview" class="mx-12 md:mx-32 lg:mx-64 py-16 min-h-auto min-h-screen justify-center flex flex-col sm:snap-always sm:snap-start">
+    <div class="flex flex-row gap-2 mb-10">
+        <div class="greentext text-3xl font-bold">
+            01
+        </div>
+        <div class="text-white text-3xl font-bold">
+            Overview
+        </div>
     </div>
     <div class="grid grid-cols-1 lg:grid-cols-2 gap-10 lg:gap-20">
         <div class="flex flex-col">

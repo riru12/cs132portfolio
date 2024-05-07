@@ -1,9 +1,9 @@
 <script lang="ts">
-    import OverviewIcon from "./icons/OverviewIcon.svelte";
-    import BackgroundIcon from "./icons/BackgroundIcon.svelte";
-    import DataIcon from "./icons/DataIcon.svelte";
-    import MethodIcon from "./icons/MethodIcon.svelte";
-    import ResultsIcon from "./icons/ResultsIcon.svelte";
+    import OverviewIcon from "./icons/navbar/OverviewIcon.svelte";
+    import BackgroundIcon from "./icons/navbar/BackgroundIcon.svelte";
+    import DataIcon from "./icons/navbar/DataIcon.svelte";
+    import MethodIcon from "./icons/navbar/MethodIcon.svelte";
+    import ResultsIcon from "./icons/navbar/ResultsIcon.svelte";
 
     import { base } from '$app/paths';
     import { onMount } from 'svelte';
@@ -31,7 +31,7 @@
     <nav class="flex rounded-2xl bg-[#2d2d2d99] text-neutral-300 font-semibold backdrop-blur-lg border-[1px] border-neutral-700 flex-1 md:w-min p-1">
         <a href="#overview" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><OverviewIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Overview</div></a>
         <a href="#background" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><BackgroundIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Background</div></a>
-        <a href="{base}/" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><DataIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Data</div></a>
+        <a href="#data" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><DataIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Data</div></a>
         <a href="{base}/" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><MethodIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Method</div></a>
         <a href="{base}/" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><ResultsIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Results</div></a>
     </nav>
