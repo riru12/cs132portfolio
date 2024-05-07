@@ -1,4 +1,10 @@
 <script lang="ts">
+    import OverviewIcon from "./icons/OverviewIcon.svelte";
+    import BackgroundIcon from "./icons/BackgroundIcon.svelte";
+    import DataIcon from "./icons/DataIcon.svelte";
+    import MethodIcon from "./icons/MethodIcon.svelte";
+    import ResultsIcon from "./icons/ResultsIcon.svelte";
+
     import { base } from '$app/paths';
     import { onMount } from 'svelte';
 
@@ -23,10 +29,10 @@
 
 <div class="flex fixed bottom-4 md:bottom-auto md:top-4 left-2/4 translate-x-[-50%] px-4 w-screen md:w-auto z-50">
     <nav class="flex rounded-2xl bg-[#2d2d2d99] text-neutral-300 font-semibold backdrop-blur-lg border-[1px] border-neutral-700 w-full md:w-min p-1">
-        <a href="#overview" class="p-4 hover:bg-[#a3a3a336] rounded-xl grow text-sm text-center">Overview</a>
-        <a href="#background" class="p-4 hover:bg-[#a3a3a336] rounded-xl grow text-sm text-center">Background</a>
-        <a href="{base}/" class="p-4 hover:bg-[#a3a3a336] rounded-xl grow text-sm text-center">Data</a>
-        <a href="{base}/" class="p-4 hover:bg-[#a3a3a336] rounded-xl grow text-sm text-center">Methodology</a>
-        <a href="{base}/" class="p-4 hover:bg-[#a3a3a336] rounded-xl grow text-sm text-center">Results</a>
+        <a href="#overview" class="flex gap-1    justify-center items-center p-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><OverviewIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Overview</div></a>
+        <a href="#background" class="flex gap-1 justify-center items-center p-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><BackgroundIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Background</div></a>
+        <a href="{base}/" class="flex gap-1 justify-center items-center p-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><DataIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Data</div></a>
+        <a href="{base}/" class="flex gap-1 justify-center items-center p-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><MethodIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Method</div></a>
+        <a href="{base}/" class="flex gap-1 justify-center items-center p-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><ResultsIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Results</div></a>
     </nav>
 </div>

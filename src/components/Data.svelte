@@ -13,7 +13,7 @@
             We will be using a sample of their latest dataset from the year 2021 (as of the time of writing) in analyzing the factors relating to Filipino poverty. Their data contains information regarding the salary and wages of different Filipino households and their expenses. The original data can be found here.
         </div>
         <div class="flex justify-center px-4">
-            <button class="text-white font-mono w-min h-min text-sm sm:text-md whitespace-nowrap border-2 border-[#ff1035] hover:bg-[#ff1035] p-4">
+            <button class="text-white font-mono w-min h-min text-md whitespace-nowrap border-2 border-[#ff1035] hover:bg-[#ff1035] p-4">
                 Click here to view the dataset
             </button>
         </div>
