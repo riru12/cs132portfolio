@@ -1,14 +1,14 @@
-<section id="Overview" class="mx-12 md:mx-32 lg:mx-64 py-24 min-h-svh justify-center flex flex-col snap-always snap-start">
-    <div class="text-white text-9xl font-bold">
+<section id="background" class="mx-12 md:mx-32 lg:mx-64 py-24 h-screen justify-center flex flex-col sm:snap-always sm:snap-start">
+    <div class="text-white text-7xl lg:text-8xl xl:text-9xl font-bold">
         02
     </div>
-    <div class="sdgred text-6xl font-bold mb-10">
+    <div class="sdgred text-5xl lg:text-6xl xl:text-7xl font-bold mb-10">
         Background
     </div>
-    <div id="Title" class="text-white font-bold text-4xl mb-5">
+    <div class="text-white font-bold text-2xl lg:text-3xl xl:text-4xl mb-5">
         Over <span class="sdgred">25 million Filipinos</span> are under <span class="sdgred">poverty</span>
     </div>
-    <div class="text-[#A2A2A2] text-2xl">
+    <div class="graytext text-xl xl:text-2xl">
         Despite the government's interventions in addressing poverty, the Philippine Statistics Authority (PSA) Undersecretary 
         and National Statistician Dennis Mapa stated that over 25.24 million Filipinos remain under the poverty line. Within this 
         population, over 9.79 million of Filipinos are unable to meet their basic food needs. Moreover, the National Economic and 
