@@ -1,6 +1,6 @@
 <script>
-    import heroimg from "../lib/images/hero.jpg";
-    import "../lib/css/gray.css"
+    import heroimg from "$lib/images/hero.jpg";
+    import "$lib/css/gray.css"
 </script>
 
 <section id="hero">
