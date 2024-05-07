@@ -14,7 +14,7 @@
     min-height: 12rem;
     border-radius: 1.5rem;
     box-sizing: border-box;
-    background-color: #2b2b2b;
+    background-color: #232323;
     padding: 1.4rem;
     color:white;
     animation: fade-in 0.5s;
@@ -22,9 +22,9 @@
 }
 
 .bento > div:hover{
-    background-color:#424242;
+    background-color:#323232;
     border-width: 1px;
-    border-color: rgb(163 163 163);
+    border-color: #575757
 }
 
 .bento > .special {
@@ -33,7 +33,7 @@
 }
 
 .bento > .special:hover {
-    background: linear-gradient(90deg, rgba(43,43,43,1) 0%, rgba(43,43,43,1) 100%);
+    background: linear-gradient(90deg, rgba(35,35,35,1) 0%, rgba(35,35,35,1) 100%);
     color:white;
 }
 
