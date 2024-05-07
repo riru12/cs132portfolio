@@ -3,6 +3,7 @@
   import Navbar from "../components/Navbar.svelte";
   import Hero from "../components/Hero.svelte";
   import Overview from "../components/Overview.svelte";
+  import Background from "../components/Background.svelte";
 </script>
 
 <slot />
@@ -10,4 +11,5 @@
   <Navbar/>
   <Hero />
   <Overview />
+  <Background />
 </div>
