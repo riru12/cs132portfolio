@@ -4,6 +4,7 @@
   import Hero from "../components/Hero.svelte";
   import Overview from "../components/Overview.svelte";
   import Background from "../components/Background.svelte";
+  import Data from "../components/Data.svelte";
 </script>
 
 <slot />
@@ -12,4 +13,5 @@
   <Hero />
   <Overview />
   <Background />
+  <Data />
 </div>

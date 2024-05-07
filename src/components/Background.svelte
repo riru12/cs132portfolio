@@ -1,4 +1,4 @@
-<section id="background" class="mx-12 md:mx-32 lg:mx-64 py-24 h-screen justify-center flex flex-col sm:snap-always sm:snap-start">
+<section id="background" class="mx-12 md:mx-32 lg:mx-64 py-64 h-auto md:h-screen justify-center flex flex-col sm:snap-always sm:snap-start">
     <div class="text-white text-7xl lg:text-8xl xl:text-9xl font-bold">
         02
     </div>
