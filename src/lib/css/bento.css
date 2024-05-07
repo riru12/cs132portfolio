@@ -28,7 +28,7 @@
 }
 
 .bento > .special {
-    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+    background: linear-gradient(90deg, rgba(233,237,116,1) 0%, rgba(71,198,154,1) 100%);
     color:black;
 }
 
@@ -59,7 +59,7 @@ h2 {
 }
 
 .gradient-text {
-    background: linear-gradient(90deg, #f8ff00 0%, #3ad59f 100%);
+    background: linear-gradient(90deg, rgba(233,237,116,1) 0%, rgba(71,198,154,1) 100%);
     background-clip: text;
     -webkit-text-fill-color: transparent;
 }
