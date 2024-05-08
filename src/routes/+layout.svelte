@@ -4,6 +4,7 @@
   import Bento from "../components/Bento.svelte";
   import Overview from "../components/Overview.svelte";
   import Background from "../components/Background.svelte";
+  import Background2 from "../components/Background-2.svelte";
   import Data from "../components/Data.svelte";
 </script>
 
@@ -13,5 +14,6 @@
   <Bento />
   <!-- <Overview /> -->
   <Background />
+  <Background2 />
   <Data />
 </div>
