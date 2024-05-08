@@ -22,14 +22,14 @@
                 </div>
             </div>
             <div class="flex justify-center items-center px-4 gap-8">
-                <div class="grid grid-cols-2 md:grid-rows-1 xl:grid-cols-1 w-max gap-4">
+                <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-rows-1 xl:grid-cols-1 w-max gap-4">
                     <div class="text-white flex flex-col justify-center items-center bg-[#232323] rounded-3xl p-5 sm:p-6 2xl:p-8 w-full">
-                        <p class="text-center text-2xl sm:text-5xl font-bold gradient-text">88</p>
-                        <p class="text-center text-base sm:text-xl">features / columns</p>
+                        <p class="text-center text-5xl font-bold gradient-text">88</p>
+                        <p class="text-center text-xl">features / columns</p>
                     </div>
                     <div class="text-white flex flex-col justify-center items-center bg-[#232323] rounded-3xl p-5 sm:p-6 2xl:p-8 w-full">
-                        <p class="text-center text-2xl sm:text-5xl font-bold gradient-text">165,029</p>
-                        <p class="text-center text-base sm:text-xl">entries / rows</p>
+                        <p class="text-center text-5xl font-bold gradient-text">165,029</p>
+                        <p class="text-center text-xl">entries / rows</p>
                     </div>
                 </div>
             </div>
