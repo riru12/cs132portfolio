@@ -17,7 +17,7 @@
     </div>
     <div class="relative w-full h-full">
         <div class="absolute bg-gradient-to-l from-black to-transparent h-full w-12 md:w-24 right-0 z-50"></div>
-        <div class="flex relative gap-4 overflow-x-scroll px-12 sm:px-20">
+        <div class="flex relative gap-4 overflow-x-scroll custom-scrollbar px-12 sm:px-20">
             <div class="flex relative rounded-3xl min-h-[32rem] max-w-[24rem] bg-[#232323] shrink-0">
                 <a href="https://www.pna.gov.ph/articles/1215836" target="_blank">
                     <div class="absolute z-10 left-8 top-8 right-8 text-white">

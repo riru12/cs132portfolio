@@ -27,3 +27,9 @@
 .darker-gray {
     filter: grayscale(100%) brightness(0.4);
 }
+
+/* miscellaneous classes */
+.custom-scrollbar {
+    scrollbar-color: #424242 #1a1a1a;
+    scrollbar-width: thin;
+}
