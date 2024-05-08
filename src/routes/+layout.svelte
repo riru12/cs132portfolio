@@ -5,6 +5,7 @@
   import Background from "../components/Background.svelte";
   import Background2 from "../components/Background-2.svelte";
   import Data from "../components/Data.svelte";
+  import Method from "../components/Method.svelte";
 </script>
 
 <slot />
@@ -14,4 +15,5 @@
   <Background />
   <Background2 />
   <Data />
+  <Method />
 </div>
