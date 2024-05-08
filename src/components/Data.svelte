@@ -2,7 +2,7 @@
     import LinkIcon from "./icons/data/LinkIcon.svelte";
 </script>
 
-<section id="data" class="mx-4 xs:mx-12 md:mx-32 lg:mx-64 py-16 min-h-auto min-h-screen justify-center flex flex-col sm:snap-always sm:snap-start">
+<section id="data" class="mx-12 md:mx-32 lg:mx-64 py-16 min-h-auto min-h-screen justify-center flex flex-col sm:snap-always sm:snap-start">
     <div class="flex flex-row gap-2 mb-10 justify-center">
         <div class="green-text text-3xl font-bold gradient-text">
             03
@@ -23,13 +23,13 @@
             </div>
             <div class="flex justify-center items-center px-4 gap-8">
                 <div class="grid grid-cols-2 md:grid-rows-1 xl:grid-cols-1 w-max gap-4">
-                    <div class="text-white flex flex-col justify-center items-center bg-[#232323] rounded-3xl p-6 2xl:p-8 w-full">
-                        <p class="text-center text-5xl font-bold gradient-text">88</p>
-                        <p class="text-center text-xl">features / columns</p>
+                    <div class="text-white flex flex-col justify-center items-center bg-[#232323] rounded-3xl p-5 sm:p-6 2xl:p-8 w-full">
+                        <p class="text-center text-2xl sm:text-5xl font-bold gradient-text">88</p>
+                        <p class="text-center text-base sm:text-xl">features / columns</p>
                     </div>
-                    <div class="text-white flex flex-col justify-center items-center bg-[#232323] rounded-3xl p-6 2xl:p-8 w-full">
-                        <p class="text-center text-5xl font-bold gradient-text">165,029</p>
-                        <p class="text-center text-xl">entries / rows</p>
+                    <div class="text-white flex flex-col justify-center items-center bg-[#232323] rounded-3xl p-5 sm:p-6 2xl:p-8 w-full">
+                        <p class="text-center text-2xl sm:text-5xl font-bold gradient-text">165,029</p>
+                        <p class="text-center text-base sm:text-xl">entries / rows</p>
                     </div>
                 </div>
             </div>
