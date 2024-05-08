@@ -59,21 +59,6 @@ h2 {
     font-weight: 700;
 }
 
-.gradient-text {
-    background: linear-gradient(90deg, rgba(233,237,116,1) 0%, rgba(71,198,154,1) 100%);
-    background-clip: text;
-    -webkit-text-fill-color: transparent;
-}
-
-/* image css */
-.gray {
-    filter: grayscale(100%);
-}
-
-.darker-gray {
-    filter: grayscale(100%) brightness(0.4);
-}
-
 /* animations */
 @keyframes fade-in {
     from {
@@ -83,6 +68,8 @@ h2 {
       opacity: 1;
     }
 }
+
+/* responsive bento! */
 
 @media (max-width:1250px){
     .bento {
