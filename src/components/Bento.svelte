@@ -39,6 +39,7 @@
         </div>
 
         <div id="box-7" class="relative">
+            <p class="absolute z-10 top-6 left-6 font-bold"><span class="text-[#e9ed74]">01</span> Overview</p>
             <h2 class="absolute z-10 left-1/2 translate-x-[-50%] top-1/2 translate-y-[-50%] whitespace-nowrap text-4xl text-center"><span class="gradient-text text-7xl">Poverty</span> <br> continues to <br> affect our country</h2>
             <img src={bento1} alt="" class="min-h-full md:min-w-full object-cover rounded-[1.5rem] darker-gray">
         </div>
