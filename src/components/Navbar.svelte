@@ -32,7 +32,7 @@
         <a href="#bento" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><OverviewIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Overview</div></a>
         <a href="#background" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><BackgroundIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Background</div></a>
         <a href="#data" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><DataIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Data</div></a>
-        <a href="{base}/" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><MethodIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Method</div></a>
+        <a href="#method" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><MethodIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Method</div></a>
         <a href="{base}/" class="flex gap-1 justify-center items-center px-1 py-4 sm:px-4 hover:bg-[#a3a3a336] rounded-xl grow text-center flex-col sm:flex-row"><ResultsIcon/><div class="text-[0.7rem] sm:text-[0.9rem]">Results</div></a>
     </nav>
 </div>
