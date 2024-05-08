@@ -17,7 +17,7 @@
                 <div class="text-white font-bold text-2xl 2xl:text-4xl mb-8">
                     We contacted the <span class="gradient-text">Philippine Statistics Authority's (PSA)</span> archive to gain access to our dataset. 
                 </div>
-                <div class="gray-text text-xl xl:text-2xl">
+                <div class="gray-text text-lg sm:text-xl xl:text-2xl">
                     We will be using a sample of their latest (as of the time of writing) dataset from the year 2021 in analyzing the factors relating to Filipino poverty. Their data contains information regarding the salary and wages of different Filipino households and their expenses. The original data can be found <a href="https://psada.psa.gov.ph/catalog/FIES/about" target="_blank" class="gradient-text font-semibold">here</a>.
                 </div>
             </div>
