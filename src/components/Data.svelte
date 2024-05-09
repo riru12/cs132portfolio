@@ -34,7 +34,7 @@
                 </div>
             </div>
         </div>
-            <a href="https://docs.google.com/spreadsheets/d/12MIDVSnERx91BxbVeHTM004SsnOj1-R9O43Q1hUPsHA/edit#gid=1046726595" target="_blank" class="bg-[#232323] w-fit rounded-xl font-semibold px-6 py-4 text-white flex flex-row gap-2 hover:bg-[#323232] hover:border-[1px] hover:border-[#575757]"><LinkIcon />Explore the sampled dataset</a>
+            <a href="https://docs.google.com/spreadsheets/d/12MIDVSnERx91BxbVeHTM004SsnOj1-R9O43Q1hUPsHA/edit#gid=1046726595" target="_blank" class="bg-[#232323] w-min whitespace-nowrap rounded-xl font-semibold px-6 py-4 text-white flex flex-row gap-2 hover:bg-[#323232] hover:border-[1px] hover:border-[#575757]"><LinkIcon />Explore the sampled dataset</a>
     </div>
 
 </section>
