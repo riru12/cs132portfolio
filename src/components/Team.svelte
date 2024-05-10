@@ -1,10 +1,14 @@
 <script lang="ts">
-    import MailIcon from "./assets/team/MailIcon.svelte";
-    import GithubIcon from "./assets/team/GithubIcon.svelte";
-    import PortfolioIcon from "./assets/team/PortfolioIcon.svelte";
-    import LinkedinIcon from "./assets/team/LinkedinIcon.svelte";
+    import MailIcon from "./icons/team/MailIcon.svelte";
+    import GithubIcon from "./icons/team/GithubIcon.svelte";
+    import PortfolioIcon from "./icons/team/PortfolioIcon.svelte";
+    import LinkedinIcon from "./icons/team/LinkedinIcon.svelte";
 
-    import team from "./assets/team/content.json";
+    import team from "$lib/content/team.json";
+
+    import img1 from "$lib/images/team_brill.jpg";
+    import img2 from "$lib/images/team_jeff.jpg";
+    let imgs = [img1, img2]
 </script>
 
 <section id="team" class="mx-12 md:mx-32 lg:mx-64 py-16 min-h-auto min-h-screen justify-center items-center flex flex-col sm:snap-always sm:snap-start">
@@ -16,9 +20,9 @@
     <div class="grid grid-cols-1 2xl:grid-cols-2 gap-4 max-w-xl 2xl:max-w-max">
         {#each team as member}
             <div id={member.id.toString()} class="text-white text-xl font-bold flex flex-col items-center justify-center bg-[#141414] rounded-3xl p-8 gap-6">
-                {#if member.pic}
+                {#if member.pic===true}
                     <div class="bg-transparent w-20 h-20 ">
-                        <img src={member.pic} alt="" class="min-h-full md:min-w-full object-cover rounded-[50%]">
+                        <img src={imgs[member.id-1]} alt="" class="min-h-full md:min-w-full object-cover rounded-[50%]">
                     </div>
                 {/if}
                 <div class="flex flex-col gap-5 items-center">

@@ -1,5 +1,5 @@
 <script lang="ts">
-    import LinkIcon from "./assets/data/LinkIcon.svelte";
+    import LinkIcon from "./icons/data/LinkIcon.svelte";
 </script>
 
 <section id="data" class="mx-12 md:mx-32 lg:mx-64 py-16 min-h-auto min-h-screen justify-center flex flex-col sm:snap-always sm:snap-start">

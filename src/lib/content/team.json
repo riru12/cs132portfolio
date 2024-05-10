@@ -1,7 +1,7 @@
 [
     {
         "id":1,
-        "pic": "/src/lib/images/team_brill.jpg",
+        "pic": true,
         "name": "Brill Riña",
         "description": "I'm a graduating 4th year Computer Science student with a strong passion for UI/UX. I enjoy crafting narratives through visually appealing elements. I hope you enjoyed our work!",
         "description2": "When I'm not coding, I'm probably painting as I also enjoy creating beautiful pictures using my self-learned skills. Otherwise, I also play video games for fun.",
@@ -12,7 +12,7 @@
     },
     {
         "id":2,
-        "pic": "/src/lib/images/team_jeff.jpg",
+        "pic": true,
         "name": "Jeff Pecson",
         "description": "I'm a graduating 4th year Computer Science student who has several experiences in website development and has recently been interested in data science.",
         "description2": "You can find me playing video games or watching my favorite series when I'm not working. I also enjoy going to cafes that have good atmospheres!",

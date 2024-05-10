@@ -1,9 +1,9 @@
 <script lang="ts">
-    import OverviewIcon from "./assets/navbar/OverviewIcon.svelte";
-    import BackgroundIcon from "./assets/navbar/BackgroundIcon.svelte";
-    import DataIcon from "./assets/navbar/DataIcon.svelte";
-    import MethodIcon from "./assets/navbar/MethodIcon.svelte";
-    import ResultsIcon from "./assets/navbar/ResultsIcon.svelte";
+    import OverviewIcon from "./icons/navbar/OverviewIcon.svelte";
+    import BackgroundIcon from "./icons/navbar/BackgroundIcon.svelte";
+    import DataIcon from "./icons/navbar/DataIcon.svelte";
+    import MethodIcon from "./icons/navbar/MethodIcon.svelte";
+    import ResultsIcon from "./icons/navbar/ResultsIcon.svelte";
 
     import { base } from '$app/paths';
     import { onMount } from 'svelte';
