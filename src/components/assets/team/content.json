@@ -1,0 +1,35 @@
+[
+    {
+        "id":1,
+        "pic": "/src/lib/images/team_brill.jpg",
+        "name": "Brill Riña",
+        "description": "I'm a graduating 4th year Computer Science student with a strong passion for UI/UX. I enjoy crafting narratives through visually appealing elements. I hope you enjoyed our work!",
+        "description2": "When I'm not coding, I'm probably painting as I also enjoy creating beautiful pictures using my self-learned skills. Otherwise, I also play video games for fun.",
+        "email": "bgrina@up.edu.ph",
+        "gitlink": "https://github.com/riru12",
+        "portfoliolink": "https://riru.vercel.app/",
+        "linkedinlink": "https://www.linkedin.com/in/brill-rina/"
+    },
+    {
+        "id":2,
+        "pic": "",
+        "name": "Jeff Pecson",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description2": "",
+        "email": "jgpecson@up.edu.ph",
+        "gitlink": "",
+        "portfoliolink": "",
+        "linkedinlink": ""
+    },
+    {
+        "id":3,
+        "pic": "",
+        "name": "Rafa Partosa",
+        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+        "description2": "",
+        "email": "",
+        "gitlink": "",
+        "portfoliolink": "",
+        "linkedinlink": ""
+    }
+]

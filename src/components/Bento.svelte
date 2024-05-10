@@ -5,8 +5,8 @@
     import bento2 from "$lib/images/bento2.jpg";
     import bento3 from "$lib/images/bento3.jpg";
 
-    import DownwardTrend from "./icons/bento/DownwardTrend.svelte";
-    import DownArrow from "./icons/bento/DownArrow.svelte";
+    import DownwardTrend from "./assets/bento/DownwardTrend.svelte";
+    import DownArrow from "./assets/bento/DownArrow.svelte";
 </script>
 
 <section id="bento" class="flex justify-center items-center text-white pt-8 md:pt-24 xl:pt-16 pb-16 min-h-auto md:min-h-screen sm:snap-always sm:snap-start">
