@@ -19,10 +19,12 @@
     </div>
     <div class="grid grid-cols-1 2xl:grid-cols-2 gap-4 max-w-xl 2xl:max-w-max">
         {#each team as member}
-            <div id={member.id.toString()} class="text-white text-xl font-bold flex flex-col items-center justify-center bg-[#141414] rounded-3xl p-8 gap-6">
+            <div id={member.id.toString()} class="text-white text-xl font-bold grid grid-cols-1 bg-[#141414] rounded-3xl p-8 gap-6">
                 {#if member.pic===true}
-                    <div class="bg-transparent w-20 h-20 ">
-                        <img src={imgs[member.id-1]} alt="" class="min-h-full md:min-w-full object-cover rounded-[50%]">
+                    <div class="flex w-full justify-center">
+                        <div class="bg-transparent w-20 h-20">
+                            <img src={imgs[member.id-1]} alt="" class="min-h-full md:min-w-full object-cover rounded-[50%]">
+                        </div>
                     </div>
                 {/if}
                 <div class="flex flex-col gap-5 items-center">
@@ -38,7 +40,7 @@
                     {#if member.description}<p class="text-base font-normal gray-text text-center">{member.description}</p>{/if}
                     {#if member.description2}<p class="text-base font-normal gray-text text-center">{member.description2}</p>{/if}
                 </div>
-                <div class="flex flex-row gap-4">
+                <div class="flex flex-row gap-4 w-full justify-center">
                     {#if member.gitlink}
                         <div class="w-12 h-12 rounded-[50%] relative hover:bg-black">
                             <a href={member.gitlink} target="_blank" class="absolute left-1/2 translate-x-[-52%] top-1/2 translate-y-[-50%]">
