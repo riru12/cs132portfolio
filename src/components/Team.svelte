@@ -13,7 +13,7 @@
             Meet the Team
         </div>
     </div>
-    <div class="grid grid-cols-1 2xl:grid-cols-3 gap-4 max-w-xl 2xl:max-w-max">
+    <div class="grid grid-cols-1 2xl:grid-cols-2 gap-4 max-w-xl 2xl:max-w-max">
         {#each team as member}
             <div id={member.id.toString()} class="text-white text-xl font-bold flex flex-col items-center justify-center bg-[#141414] rounded-3xl p-8 gap-6">
                 {#if member.pic}

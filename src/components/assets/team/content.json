@@ -12,23 +12,12 @@
     },
     {
         "id":2,
-        "pic": "",
+        "pic": "/src/lib/images/team_jeff.jpg",
         "name": "Jeff Pecson",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "description2": "",
+        "description": "I'm a graduating 4th year Computer Science student who has several experiences in website development and has recently been interested in data science.",
+        "description2": "You can find me playing video games or watching my favorite series when I'm not working. I also enjoy going to cafes that have good atmospheres!",
         "email": "jgpecson@up.edu.ph",
-        "gitlink": "",
-        "portfoliolink": "",
-        "linkedinlink": ""
-    },
-    {
-        "id":3,
-        "pic": "",
-        "name": "Rafa Partosa",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-        "description2": "",
-        "email": "",
-        "gitlink": "",
+        "gitlink": "https://github.com/Pecsooon",
         "portfoliolink": "",
         "linkedinlink": ""
     }
