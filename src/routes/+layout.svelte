@@ -6,6 +6,7 @@
   import Background2 from "../components/Background-2.svelte";
   import Data from "../components/Data.svelte";
   import Method from "../components/Method.svelte";
+  import Team from "../components/Team.svelte";
 </script>
 
 <slot />
@@ -16,4 +17,5 @@
   <Background2 />
   <Data />
   <Method />
+  <Team />
 </div>
