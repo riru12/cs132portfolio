@@ -1,4 +1,4 @@
-<section id="background2" class="mx-12 md:mx-32 lg:mx-64 py-16 min-h-auto md:min-h-screen justify-center flex flex-col sm:snap-always sm:snap-start">
+<section id="background2" class="mx-12 md:mx-32 lg:mx-64 pt-16 pb-32 min-h-auto justify-center flex flex-col">
     <div class="flex flex-col gap-8 justify-center items-center">
         <div class="text-white font-bold text-center text-xl 2xl:text-2xl">
             So, we want to find the answer to the question:

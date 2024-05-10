@@ -11,7 +11,7 @@
     let imgs = [img1, img2]
 </script>
 
-<section id="team" class="mx-12 md:mx-32 lg:mx-64 py-16 min-h-auto min-h-screen justify-center items-center flex flex-col sm:snap-always sm:snap-start">
+<section id="team" class="mx-12 md:mx-32 lg:mx-64 pt-32 pb-32 md:pb-16 min-h-auto justify-center items-center flex flex-col">
     <div class="flex flex-row mb-10 justify-center">
         <div class="text-white text-3xl font-bold">
             Meet the Team

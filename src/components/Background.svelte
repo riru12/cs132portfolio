@@ -5,7 +5,7 @@
     import article4 from "$lib/images/article4.jpg";
 </script>
 
-<section id="background" class="py-16 min-h-auto md:min-h-screen justify-center flex flex-col sm:snap-always sm:snap-start">
+<section id="background" class="pt-32 pb-16 min-h-auto md:min-h-screen justify-center flex flex-col">
     <div class="flex flex-row gap-2 mb-10 justify-center">
         <div class="green-text text-3xl font-bold gradient-text">
             02

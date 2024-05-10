@@ -2,7 +2,7 @@
     import LinkIcon from "./icons/data/LinkIcon.svelte";
 </script>
 
-<section id="data" class="mx-12 md:mx-32 lg:mx-64 py-16 min-h-auto min-h-screen justify-center flex flex-col sm:snap-always sm:snap-start">
+<section id="data" class="mx-12 md:mx-32 lg:mx-64 py-32 min-h-screen justify-center flex flex-col">
     <div class="flex flex-row gap-2 mb-10 justify-center">
         <div class="green-text text-3xl font-bold gradient-text">
             03

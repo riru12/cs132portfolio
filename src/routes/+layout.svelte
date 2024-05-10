@@ -10,7 +10,7 @@
 </script>
 
 <slot />
-<div class="sm:snap-y sm:snap-mandatory sm:overflow-y-scroll h-screen flex-grow z-0">
+<div class="">
   <Navbar/>
   <Bento />
   <Background />
