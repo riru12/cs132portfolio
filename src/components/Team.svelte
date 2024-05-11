@@ -66,5 +66,5 @@
             </div>
         {/each}
     </div>
-    <a href="https://github.com/riru12/cs132portfolio" target="_blank" class="mt-5 w-min whitespace-nowrap gray-text font-mono text-xs opacity-30 hover:opacity-100 hover:underline">Click here to view this website's Github repository</a>
+    <a href="https://github.com/riru12/cs132portfolio" target="_blank" class="mt-5 w-fit text-center gray-text font-mono text-xs opacity-30 hover:opacity-100 hover:underline">Click here to view this website's Github repository</a>
 </section>
