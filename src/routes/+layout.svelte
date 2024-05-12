@@ -11,7 +11,7 @@
 </script>
 
 <slot />
-<div class="">
+<div style="background-color: black;">
   <!-- <Test /> -->
   <Navbar/>
   <Bento />
