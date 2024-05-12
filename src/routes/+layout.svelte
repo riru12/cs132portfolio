@@ -7,10 +7,12 @@
   import Data from "../components/Data.svelte";
   import Method from "../components/Method.svelte";
   import Team from "../components/Team.svelte";
+  // import Test from "../components/Test.svelte"
 </script>
 
 <slot />
 <div class="">
+  <!-- <Test /> -->
   <Navbar/>
   <Bento />
   <Background />

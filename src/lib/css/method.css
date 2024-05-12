@@ -1,34 +1,53 @@
 .subsection{
     width:100%;
-    border-radius: 1.5rem;
-    padding: 0.75rem;
-    font-size: 1.25rem;
     color: white;
     background-color: #141414;
+    font-size: 1.25rem;
+    padding: 0.75rem;
+    border-radius: 1.5rem;
 }
 
-.subsection:hover{
-    border-width: 1px;
-    border-color: #575757
-}
-
-.subsection > div:nth-child(1) > div:nth-child(2){
-    transform-origin: 50% 50%;
-    transition: transform 1s cubic-bezier(1, 0, 0, 1);
-}
-
+/* subsection grid */
 .subsection > div:nth-child(2){
-    max-height:0;
+    display:grid;
+    padding-left: 0.75rem;
+    padding-right: 0.75rem;
+    grid-template-rows: 0fr;
+    transition: grid-template-rows 0.1s
+}
+
+/* item inside grid */
+.subsection > div:nth-child(2) div{
+    overflow:hidden;
+}
+
+.subsection > div:nth-child(2) div h2{
+    color: #a2a2a2;
+    font-size: 1.125rem;
+    margin-top: 0.75rem;
+    margin-bottom:0.75rem;
+}
+
+.subsection > div:nth-child(2) div p{
+    color: #a2a2a2;
     font-size: 1rem;
-    color:#a2a2a2;
-    overflow: hidden;
-    transition: max-height 1s cubic-bezier(1, 0, 0, 1);
 }
 
+/* enable the content */
 .active > div:nth-child(2){
-    max-height:200vh;
+    grid-template-rows: 1fr;
+    padding-bottom:0.75rem;
 }
 
-.active > div:nth-child(1) > div:nth-child(2){
+/* + to x animation */
+.subsection > div:nth-child(1) div{
+    transition: all 300ms;
+}
+
+.active > div:nth-child(1) div{
     transform: rotate(45deg);
+}
+
+.clickable{
+    cursor:pointer;
 }
