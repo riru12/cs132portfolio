@@ -1,6 +1,7 @@
 <script>
     import "$lib/css/method.css";
     import PlusIcon from "./icons/methods/PlusIcon.svelte";
+    import DummyChart from "./charts/DummyChart.svelte"
 
     function handleSections(event){
         if (event.type === 'click' || (event.type === 'keydown' && (event.key === 'Enter' || event.key === ' '))) {
@@ -36,6 +37,7 @@
                     <p>Due to the huge volume of data, processing it would be time and resource heavy. So, we sampled 10% of the original volume which can be seen in the data section, leaving us with a sampled dataset containing 16,503 entries.</p>
                     <h2>Dropping Certain Features</h2>
                     <p>We dropped certain features (columns) that are redundant and not related to the study such as some of the elements in the breakdowns of the total income and a few nominal features.</p>
+                    <DummyChart />
                 </div>
             </div>
         </div>
