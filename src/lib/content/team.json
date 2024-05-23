@@ -20,5 +20,16 @@
         "gitlink": "https://github.com/Pecsooon",
         "portfoliolink": "",
         "linkedinlink": ""
+    },
+    {
+        "id":3,
+        "pic": true,
+        "name": "Rafa Partosa",
+        "description": "...",
+        "description2": "...",
+        "email": "wbpartosa@up.edu.ph",
+        "gitlink": "",
+        "portfoliolink": "",
+        "linkedinlink": ""
     }
 ]
