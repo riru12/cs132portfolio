@@ -2,7 +2,6 @@
 	import { BarWithErrorBarsChart } from 'chartjs-chart-error-bars';
 	import { onMount } from 'svelte';
     
-	let chartData = [20, 100, 50, 12, 20, 130, 45];
 	let Labels = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday' ];
 	let chartCanvas;
 
@@ -48,16 +47,34 @@
                     yMax: 6,
                 },
             ],
-            backgroundColor: 'rgb(255, 99, 132)'
+            backgroundColor: '#47C69A',
+            errorBarColor: '#ffffff',
+            errorBarWhiskerColor: '#ffffff'
         },
       ]
+    };
+
+    let options = {
+        scales: {
+            x: {
+                grid: {
+                    color: '#2e2e2e'
+                }
+            },
+            y: {
+                grid: {
+                    color: '#2e2e2e'
+                }
+            }
+        }
     };
 
 	onMount(async () => {
 		let ctx = chartCanvas.getContext('2d');
 		new BarWithErrorBarsChart(ctx, {
-            data: config
+            data: config,
+            options: options,
 		});
 	});
 </script>
-<canvas bind:this={chartCanvas} id="myChart" class="py-4 mx-24"></canvas>
+<canvas bind:this={chartCanvas} id="myChart" class="py-4 px-4 mx-24 rounded-lg"></canvas>
