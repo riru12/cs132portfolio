@@ -83,6 +83,8 @@
                         </div>
                     </div>
                     <p>The p-value is less than 0.05. Hence, we reject the null hypothesis and accept the alternative hypothesis. This implies that there is a significant difference between households that have regular wages from employment and those who do not.</p>
+                    <br><p>The number of households that have wages (employment income) in the high category is significantly greater than the  number of households without wages. This implies that having employment income or wages in a household can help in improving their financial status. However, the financial category of a household can still be affected by multiple factors (mainly their expenditures) which explains why there are still households(with employment income) that are in the moderate and low financial category.</p>
+                    <GroupedBarWages />
                     <br><h2>Effect of Business Ownership on Finances</h2>
                     <p>We also wanted to answer the question <span class="italic">"Do households with higher levels of entrepreneurial activities exhibit different patterns of negative income compared to those relying primarily on wage employment or other sources of income?"</span></p>
                     <div class="flex p-4 gap-4 flex-wrap sm:flex-nowrap mx-4">
@@ -107,10 +109,7 @@
                         </div>
                     </div>
                     <p>The p-value is less than 0.05. Hence, we reject the null hypothesis and accept the alternative hypothesis. This implies that there is a significant difference between households that have a business or entrepreneurial income and households that do not.</p>
-                    <br><h2>Visualization of Income Reliance</h2>
-                    <p>The number of households that have wages (employment income) in the high category is significantly greater than the  number of households without wages. This implies that having employment income or wages in a household can help in improving their financial status. However, the financial category of a household can still be affected by multiple factors (mainly their expenditures) which explains why there are still households(with employment income) that are in the moderate and low financial category.</p>
-                    <GroupedBarWages />
-                    <p>The number of households that have businesses or entrepreneurial activities in high category is greater than the  number of households without businesses. This implies that having a business or doing entrepreneurial activities can help in improving their financial status. However, the financial category of a household can still be affected by multiple factors (mainly their expenditures and in this case their business losses) which explains why there are still households  (with entrepreneurial activities) that are in the moderate and low financial category. Moreover, households' (that don't have entrepreneurial activities) financial category can also be improved by the presence of other sources of income which explains the number of households in the high category for those without entrepreneurial activities.</p>
+                    <br><p>The number of households that have businesses or entrepreneurial activities in high category is greater than the  number of households without businesses. This implies that having a business or doing entrepreneurial activities can help in improving their financial status. However, the financial category of a household can still be affected by multiple factors (mainly their expenditures and in this case their business losses) which explains why there are still households  (with entrepreneurial activities) that are in the moderate and low financial category. Moreover, households' (that don't have entrepreneurial activities) financial category can also be improved by the presence of other sources of income which explains the number of households in the high category for those without entrepreneurial activities.</p>
                     <GroupedBarBusiness />
                 </div>
             </div>
