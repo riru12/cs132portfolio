@@ -8,7 +8,8 @@
 
     import img1 from "$lib/images/team_brill.jpg";
     import img2 from "$lib/images/team_jeff.jpg";
-    let imgs = [img1, img2]
+    import img3 from "$lib/images/team_rafa.jpg";
+    let imgs = [img1, img2, img3]
 </script>
 
 <section id="team" class="mx-12 md:mx-32 lg:mx-64 pt-32 pb-32 md:pb-16 min-h-auto justify-center items-center flex flex-col">
