@@ -5,7 +5,7 @@
 	let Labels = ['NFOOD', 'HOUSING_WATER', 'BREAD', 'MEAT', 'HEALTH', 'TRANSPORT', 'MISCELLANEOUS', 'VEG', 'SUGAR', 'FURNISHING'];
 	let chartCanvas;
 
-    let config = {
+    let data = {
       labels: Labels,
       datasets: [
         {
@@ -87,7 +87,7 @@
 	onMount(async () => {
 		let ctx = chartCanvas.getContext('2d');
 		new BarWithErrorBarsChart(ctx, {
-            data: config,
+            data: data,
             options: options,
 		});
 	});
