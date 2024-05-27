@@ -5,7 +5,7 @@
 	let Labels = ["Low Finances", "Medium Finances", "High Finances"];
 	let chartCanvas;
 
-    let config = {
+    let data = {
         labels: Labels,
         datasets: [
             {
@@ -33,7 +33,7 @@
 		let ctx = chartCanvas.getContext('2d');
 		new Chart(ctx, {
             type: 'bar',
-            data: config,
+            data: data,
             options: options
 		});
 	});
