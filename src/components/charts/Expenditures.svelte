@@ -2,7 +2,7 @@
 	import { Chart } from 'chart.js/auto';
 	import { onMount } from 'svelte';
     
-	let Labels = ['FOOD', 'FOOD_HOME', 'HOUSING_WATER', 'RENTVAL', 'OTHER_DISBURSEMENT', 'IMPUTED_RENT', 'BREAD', 'MEAT', 'FISH', 'TRANSPORT'];
+	let Labels = ['FOOD', 'FOOD_HOME', 'HOUSING_WATER', 'RENTVAL', 'IMPUTED_RENT', 'BREAD', 'OTHER_DISBURSEMENT', 'MEAT', 'FISH', 'TRANSPORT'];
 	let chartCanvas;
 
     let data = {
@@ -11,7 +11,7 @@
             {
                 label: "Highest Average Expenditures",
                 backgroundColor: "#E9ED74",
-                data: [91081.66824, 83829.86136, 47865.88184, 28644.16215, 27404.58638, 25316.14397, 24936.57602, 14656.79967, 13297.62201, 11505.32303],
+                data: [93594.9347, 86052.6787, 51289.6793, 30833.8357, 27631.4715, 25365.4803, 24004.3483, 15380.7871, 13513.7751, 12146.4745],
             },
         ]
     };

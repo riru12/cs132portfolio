@@ -25,10 +25,10 @@
         "id":3,
         "pic": true,
         "name": "Rafa Partosa",
-        "description": "...",
-        "description2": "...",
+        "description": "I am a Computer Science student who enjoys learning anything related to Computer Science but still forgets how to use GitHub sometimes.",
+        "description2": "Right now, I'm either coding in a dark airconditioned room blasting DnB or chasing a frisbee in a field somewhere getting sunburned. I also like to go running at 4am.",
         "email": "wbpartosa@up.edu.ph",
-        "gitlink": "",
+        "gitlink": "https://github.com/c0debaberafa",
         "portfoliolink": "",
         "linkedinlink": ""
     }
