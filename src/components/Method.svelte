@@ -6,6 +6,12 @@
     import GroupedBarBusiness from "./charts/GroupedBar-Business.svelte";
     import Expenditures from "./charts/Expenditures.svelte";
 
+    import svm_matrix from "$lib/images/svm.png";
+    import rfe_matrix from "$lib/images/rfe.png";
+    import logreg_matrix from "$lib/images/logreg.png";
+    import best_logreg_matrix from "$lib/images/best_logreg.png";
+    import tsne from "$lib/images/tsne.png";
+
     function handleSections(event){
         if (event.type === 'click' || (event.type === 'keydown' && (event.key === 'Enter' || event.key === ' '))) {
             const section = event.target.closest('.clickable').parentNode;
@@ -111,6 +117,94 @@
                     <p>The p-value is less than 0.05. Hence, we reject the null hypothesis and accept the alternative hypothesis. This implies that there is a significant difference between households that have a business or entrepreneurial income and households that do not.</p>
                     <br><p>The number of households that have businesses or entrepreneurial activities in high category is greater than the  number of households without businesses. This implies that having a business or doing entrepreneurial activities can help in improving their financial status. However, the financial category of a household can still be affected by multiple factors (mainly their expenditures and in this case their business losses) which explains why there are still households  (with entrepreneurial activities) that are in the moderate and low financial category. Moreover, households' (that don't have entrepreneurial activities) financial category can also be improved by the presence of other sources of income which explains the number of households in the high category for those without entrepreneurial activities.</p>
                     <GroupedBarBusiness />
+                </div>
+            </div>
+        </div>
+        <div data-section=3 class="subsection">
+            <div class="flex w-full justify-between items-center p-3 font-semibold clickable">
+                Machine Learning Model
+                <div class="w-min h-min rounded-full p-1 hover:bg-black"><PlusIcon /></div>
+            </div>
+            <div> <!-- 1-ROW GRID -->
+                <div>
+                    <h2>Testing out Different Predictor Models</h2>
+                    <p>The performance of Support Vector Machine (SVM), Recursive Feature Elimination (RFE), and Logistic Regression models in predicting the financial status of a household given their income and expenses were compared to identify the best model. To interpret the following figures, take note that we denoted high, moderate, and low financial statuses by the numbers <span class="font-mono">1</span>,  <span class="font-mono">0</span>, and  <span class="font-mono">-1</span>, respectively. Those that are of low financial status are most prone to the risk of experiencing the effects of poverty.  Here's what we found:</p>
+                    <h2>Support Vector Machine Performance</h2>
+                    <p>A confusion matrix of the prediction performance of the SVM model is presented below, alongside its cross-validation and test accuracies.</p>
+                    <div class="flex justify-center mt-4">
+                        <div class="w-[20rem] sm:w-[32rem]">
+                            <img src={svm_matrix} alt="" class="min-h-full md:min-w-full object-cover">
+                        </div>
+                    </div>
+                    <div class="flex p-4 gap-4 flex-wrap sm:flex-nowrap">
+                        <div class="flex flex-col bg-neutral-800 p-4 rounded-2xl basis-full gap-2">
+                            <p class="text-center font-bold">Cross-Validation Accuracy</p>
+                            <p class="text-center font-mono"><span class="text-2xl">0.71559</span></p>
+                        </div>
+                        <div class="flex flex-col bg-neutral-800 p-4 rounded-2xl basis-full gap-2">
+                            <p class="text-center font-bold">Test Accuracy</p>
+                            <p class="text-center font-mono"><span class="text-2xl">0.74500</span></p>
+                        </div>
+                    </div>
+                    <h2>Recursive Feature Elimination Performance</h2>
+                    <p>A confusion matrix of the prediction performance of the RFE model is presented below, alongside its cross-validation and test accuracies.</p>
+                    <div class="flex justify-center mt-4">
+                        <div class="w-[20rem] sm:w-[32rem]">
+                            <img src={rfe_matrix} alt="" class="min-h-full md:min-w-full object-cover">
+                        </div>
+                    </div>
+                    <div class="flex p-4 gap-4 flex-wrap sm:flex-nowrap">
+                        <div class="flex flex-col bg-neutral-800 p-4 rounded-2xl basis-full gap-2">
+                            <p class="text-center font-bold">Cross-Validation Accuracy</p>
+                            <p class="text-center font-mono"><span class="text-2xl">0.86157</span></p>
+                        </div>
+                        <div class="flex flex-col bg-neutral-800 p-4 rounded-2xl basis-full gap-2">
+                            <p class="text-center font-bold">Test Accuracy</p>
+                            <p class="text-center font-mono"><span class="text-2xl">0.88674</span></p>
+                        </div>
+                    </div>
+                    <h2>Logistic Regression Performance</h2>
+                    <p>A confusion matrix of the prediction performance of the Logistic Regression model is presented below, alongside its cross-validation and test accuracies.</p>
+                    <div class="flex justify-center mt-4">
+                        <div class="w-[20rem] sm:w-[32rem]">
+                            <img src={logreg_matrix} alt="" class="min-h-full md:min-w-full object-cover">
+                        </div>
+                    </div>
+                    <div class="flex p-4 gap-4 flex-wrap sm:flex-nowrap">
+                        <div class="flex flex-col bg-neutral-800 p-4 rounded-2xl basis-full gap-2">
+                            <p class="text-center font-bold">Cross-Validation Accuracy</p>
+                            <p class="text-center font-mono"><span class="text-2xl">0.88796</span></p>
+                        </div>
+                        <div class="flex flex-col bg-neutral-800 p-4 rounded-2xl basis-full gap-2">
+                            <p class="text-center font-bold">Test Accuracy</p>
+                            <p class="text-center font-mono"><span class="text-2xl">0.90067</span></p>
+                        </div>
+                    </div>
+                    <p>Evidently, we can identify that logistic regression tends to yield the best results, as it scored the highest in both cross-validation and test accuracies. This performance could still be improved, however, using Grid Search to identify the best possible parameters for the highest possible accuracy of the model. The following section reveals the result of the improved model.</p>
+                    <h2>Improved Logistic Regression Model</h2>
+                    <p>A confusion matrix of the prediction performance of the Logistic Regression model with improved parameters as identified through Grid Search is presented below, alongside its cross-validation and test accuracies. This is clearly a substantial improvement over any of the earlier models presented.</p>
+                    <div class="flex justify-center mt-4">
+                        <div class="w-[20rem] sm:w-[32rem]">
+                            <img src={best_logreg_matrix} alt="" class="min-h-full md:min-w-full object-cover">
+                        </div>
+                    </div>
+                    <p class="mt-4">Additionally, here's a t-SNE (t-distributed Stochastic Neighbor Embedding) visualization of the decision boundaries of our improved logistic regression model.</p>
+                    <div class="flex justify-center mt-4">
+                        <div class="w-[20rem] sm:w-[32rem]">
+                            <img src={tsne} alt="" class="min-h-full md:min-w-full object-cover">
+                        </div>
+                    </div>
+                    <div class="flex p-4 gap-4 flex-wrap sm:flex-nowrap">
+                        <div class="flex flex-col bg-neutral-800 p-4 rounded-2xl basis-full gap-2">
+                            <p class="text-center font-bold">Cross-Validation Accuracy</p>
+                            <p class="text-center font-mono"><span class="text-2xl">0.97825</span></p>
+                        </div>
+                        <div class="flex flex-col bg-neutral-800 p-4 rounded-2xl basis-full gap-2">
+                            <p class="text-center font-bold">Test Accuracy</p>
+                            <p class="text-center font-mono"><span class="text-2xl">0.98425</span></p>
+                        </div>
+                    </div>
+                    <p>Using this model accurately predicts under what financial category you would most likely fall under: high <span class="font-mono">(1)</span>, moderate <span class="font-mono">(0)</span>, and low <span class="font-mono">(-1)</span>. Those that are predicted to be classified under low financial category are at highest risk of experiencing poverty.</p>
                 </div>
             </div>
         </div>
