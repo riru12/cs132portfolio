@@ -4,8 +4,8 @@
     import BarError from "./charts/BarError.svelte";
     import GroupedBarWages from "./charts/GroupedBar-Wages.svelte";
     import GroupedBarBusiness from "./charts/GroupedBar-Business.svelte";
-    import Expenditures from "./charts/Expenditures.svelte";
 
+    import nutshell from "$lib/images/nutshell.png"
     import svm_matrix from "$lib/images/svm.png";
     import rfe_matrix from "$lib/images/rfe.png";
     import logreg_matrix from "$lib/images/logreg.png";
@@ -58,9 +58,13 @@
             </div>
             <div> <!-- 1-ROW GRID -->
                 <div>
-                    <h2>Visualization of Expenditures</h2>
-                    <p>We've identified the top 10 expenditures on average per Filipino household. Expectedly, the data reveals that food constitutes a large part of the yearly expenses of a household. Besides this, other factors such as water supply, rent, and transport also make up a large portion of an average family's budget.</p>
-                    <Expenditures />
+                    <h2>In a nutshell...</h2>
+                    <p>This graph illustrates the average allocation of household income across key expenditure categories based on annual data from Filipino households incomes and expenditures. Notably, a significant portion of household income is allocated to food and water expenditures. This study aims to identify the expenditures that heavily affect a household's financial status and  determine the effect of having businesses or employment wages to a households' overall financial status.</p>
+                    <div class="flex justify-center">
+                        <div class="w-[20rem] sm:w-[32rem]">
+                            <img src={nutshell} alt="" class="min-h-full md:min-w-full object-cover">
+                        </div>
+                    </div>
                     <h2>Feature Selection</h2>
                     <p>To answer our primary question of identifying which factors most negatively affect Filipino households' finances the most, we utilized the Random Forest Classifier algorithm in a feature importance analysis. The graph below shows the importance value of the top ten identified features.</p>
                     <BarError />
